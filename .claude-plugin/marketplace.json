@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jam7",
+  "version": "1.0.0",
+  "description": "Jam 7's plugins for Claude: AMP, the Agentic Marketing Platform®.",
+  "owner": {
+    "name": "Jam 7",
+    "email": "compliance@jam7.com",
+    "url": "https://www.jam7.com"
+  },
+  "plugins": [
+    {
+      "name": "amp-by-jam7",
+      "source": "./",
+      "description": "Use your AMP (Jam 7's Agentic Marketing Platform®) workspace from Claude: Marketing Brain answers, board and card status, AMP agents, and confirmed card changes.",
+      "category": "productivity",
+      "keywords": ["marketing", "marketing-brain", "agents", "amp", "jam7"]
+    }
+  ]
+}
