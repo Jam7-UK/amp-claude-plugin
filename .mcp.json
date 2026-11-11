@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "amp": {
+      "type": "http",
+      "url": "https://actions.jam7.com/mcp"
+    }
+  }
+}
