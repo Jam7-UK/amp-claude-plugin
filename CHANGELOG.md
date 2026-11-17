@@ -4,6 +4,10 @@ All notable changes to this plugin are listed here. The format follows [Keep a C
 
 ## [1.0.1] - 2026-11-17
 
+### Fixed
+
+- The `marketing-brain` skill no longer tells Claude to call `search_amp_mentions`. AMP exposes that tool only to an assistant's reference-picker UI, so Claude cannot call it. Loose names are now resolved with `search_cards`, `list_agents` and `search_marketing_brain`.
+
 ### Changed
 
 - Licence changed from MIT to a proprietary Jam 7 licence. You may install and use the plugin, unmodified, with AMP; other copying, modification, redistribution or commercial use needs Jam 7's written permission.
