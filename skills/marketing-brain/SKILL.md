@@ -9,7 +9,7 @@ The Marketing Brain holds the workspace's approved knowledge: brand guidelines, 
 
 1. Call `search_marketing_brain` with a natural-language `query`. Add a `category` filter only when the user clearly wants one area (for example brand, icp, positioning, tone or competitor). Keep `limit` small unless the user wants breadth.
 2. To go deeper into one document, call `read_brain_document` with its `documentKey` (for example `brand_messaging` or `icp`) and, if useful, a `section`. Use `offset` to page through a long document.
-3. When the user names something loosely ("our spring launch", "the brand agent"), `search_amp_mentions` finds readable cards, approved Brain documents and agents that match.
+3. When the user names something loosely ("our spring launch", "the brand agent"), find it with the matching tool: `search_cards` with a `query` for cards, `list_agents` for agents, and `search_marketing_brain` for Brain documents.
 
 How to answer:
 

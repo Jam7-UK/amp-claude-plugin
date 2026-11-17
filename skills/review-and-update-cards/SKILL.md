@@ -1,6 +1,6 @@
 ---
 name: review-and-update-cards
-description: Act on existing AMP cards with preview and confirmation: review work and approve or request changes, move a card to another stage, comment, edit a card's brief or fields, or nudge stalled work. Use when the user wants to change a card rather than just read it.
+description: "Act on existing AMP cards with preview and confirmation: review work and approve or request changes, move a card to another stage, comment, edit a card's brief or fields, or nudge stalled work. Use when the user wants to change a card rather than just read it."
 ---
 
 # Review and update cards
@@ -22,7 +22,7 @@ Comment
 
 Edit details
 
-- Call `get_card_edit_options` first for the current values, `expectedVersion` and `editRevision`. Then call `edit_card` with only the fields to change; `customFields` is a patch, and null clears an optional field. Show the before and after values from the preview. Editing can supersede a pending review, so tell the user. It cannot change ownership, stage or card documents.
+- Call `get_card_edit_options` first for the current values, `expectedVersion` and `editRevision`. Then call `edit_card` with the required `cardId`, `expectedVersion` and `editRevision` on every call, plus only the fields you are changing; `customFields` is a patch, and null clears an optional field. Show the before and after values from the preview. Editing can supersede a pending review, so tell the user. It cannot change ownership, stage or card documents.
 
 Nudge stalled work
 
