@@ -2,6 +2,12 @@
 
 All notable changes to this plugin are listed here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.1] - 2026-11-17
+
+### Changed
+
+- Licence changed from MIT to a proprietary Jam 7 licence. You may install and use the plugin, unmodified, with AMP; other copying, modification, redistribution or commercial use needs Jam 7's written permission.
+
 ## [1.0.0] - 2026-11-11
 
 ### Added

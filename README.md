@@ -99,4 +99,4 @@ The plugin runs no local code, hooks or scripts. Claude talks only to `https://a
 
 ## Licence
 
-MIT, copyright Jam 7 Limited. See [LICENSE](LICENSE). The licence covers the files in this repository. It grants no rights to the AMP service, which is governed by the Terms of Use.
+Proprietary, copyright Jam 7 Limited. All rights reserved. You may install and use this plugin, unmodified, to connect Claude to AMP; any other copying, modification, redistribution or commercial use needs Jam 7's written permission. See [LICENSE](LICENSE). The licence grants no rights to the AMP service, which is governed by the Terms of Use.
