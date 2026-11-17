@@ -6,6 +6,8 @@ All notable changes to this plugin are listed here. The format follows [Keep a C
 
 ### Fixed
 
+- The `review-and-update-cards` skill now tells Claude to send `cardId`, `expectedVersion` and `editRevision` on every `edit_card` call, as AMP requires.
+- The `ask-amp-agents` skill now says an `ask_agent` turn starts as soon as it is sent, with no preview or confirmation step, so Claude sends only requests the user made.
 - The `marketing-brain` skill no longer tells Claude to call `search_amp_mentions`. AMP exposes that tool only to an assistant's reference-picker UI, so Claude cannot call it. Loose names are now resolved with `search_cards`, `list_agents` and `search_marketing_brain`.
 
 ### Changed
