@@ -2,6 +2,12 @@
 
 All notable changes to this plugin are listed here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.2] - 2026-11-18
+
+### Fixed
+
+- The `marketing-brain` skill sends Claude to `list_agents` only when the connection offers it. AMP requires agent chat permission for it and does not offer it to viewers.
+
 ## [1.0.1] - 2026-11-17
 
 ### Fixed
