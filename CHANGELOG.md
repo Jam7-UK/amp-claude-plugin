@@ -2,6 +2,12 @@
 
 All notable changes to this plugin are listed here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.3] - 2026-11-26
+
+### Changed
+
+- The publisher is now named by its legal entity, Jam 7 Limited, in `plugin.json` and the marketplace owner. The directory's name check read "Jam 7" as a look-alike of another publisher.
+
 ## [1.0.2] - 2026-11-18
 
 ### Fixed

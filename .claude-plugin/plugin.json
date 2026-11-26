@@ -2,10 +2,10 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "amp-by-jam7",
   "displayName": "AMP by Jam 7",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use your AMP (Jam 7's Agentic Marketing Platform®) workspace from Claude: search your approved Marketing Brain, follow board and card work, ask AMP marketing agents, and create, review or move cards with preview and confirmation.",
   "author": {
-    "name": "Jam 7",
+    "name": "Jam 7 Limited",
     "email": "compliance@jam7.com",
     "url": "https://www.jam7.com"
   },
