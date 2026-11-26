@@ -2,6 +2,12 @@
 
 All notable changes to this plugin are listed here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.0.4] - 2026-11-26
+
+### Changed
+
+- The plugin's display name is now "Agentic Marketing Platform® by Jam 7" (was "AMP by Jam 7"). The plugin name `amp-by-jam7` and its install commands are unchanged.
+
 ## [1.0.3] - 2026-11-26
 
 ### Changed

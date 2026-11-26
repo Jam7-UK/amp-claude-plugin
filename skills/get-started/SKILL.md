@@ -1,6 +1,6 @@
 ---
 name: get-started
-description: Set up and check the AMP by Jam 7 connection. Use right after installing the plugin, or when the user asks which AMP workspace, account or permissions Claude is using.
+description: Set up and check the Agentic Marketing Platform® by Jam 7 (AMP) connection. Use right after installing the plugin, or when the user asks which AMP workspace, account or permissions Claude is using.
 ---
 
 # Get started with AMP
