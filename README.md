@@ -1,11 +1,11 @@
-# AMP by Jam 7 for Claude
+# Agentic Marketing Platform® by Jam 7 for Claude
 
 AMP is Jam 7's Agentic Marketing Platform®. Marketing teams use it to keep their approved brand knowledge in one Marketing Brain, run work as cards on boards, and hand tasks to AMP marketing agents under human review.
 
 This repository is the official AMP plugin for Claude. It connects Claude to your AMP workspace through AMP's remote MCP server, and adds skills that teach Claude how to use AMP well.
 
 - Connector URL: `https://actions.jam7.com/mcp`
-- Plugin name: `amp-by-jam7` (version 1.0.0)
+- Plugin name: `amp-by-jam7`
 - Marketplace name: `jam7`
 
 ## Before you start
@@ -28,7 +28,7 @@ If you want only the connector without the skills: `claude mcp add --transport h
 ### Claude (claude.ai, desktop and mobile)
 
 1. Open **Settings → Connectors** and choose **Add custom connector**. (Once AMP is listed in the Claude directory you can connect it from there instead.)
-2. Enter the name `AMP by Jam 7` and the URL `https://actions.jam7.com/mcp`.
+2. Enter the name `Agentic Marketing Platform® by Jam 7` and the URL `https://actions.jam7.com/mcp`.
 3. Choose **Connect** and sign in.
 
 On Team and Enterprise plans, an owner may need to add the connector for the organisation first.
